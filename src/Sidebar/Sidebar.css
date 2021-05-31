@@ -1,0 +1,18 @@
+.subnav {
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.subnav--show {
+  opacity: 1;
+}
+
+.subnav-link {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.subnav-link--active {
+  color: aquamarine;
+}

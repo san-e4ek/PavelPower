@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar__title {
+  cursor: pointer;
+  margin: 0;
+  padding: 15px 0;
+}
+.sidebar__title--active {
+  color: greenyellow;
+}
